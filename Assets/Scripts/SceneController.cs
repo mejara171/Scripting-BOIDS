@@ -22,6 +22,7 @@ public class SceneController : MonoBehaviour
     private void Start()
     {
         //Agregar boids a la lista y spawnearlos
+        //Flyweight
         _Boids = new List<BoidController>();
 
         for (int i = 0; i < SpawnBoids; i++)
